@@ -15,7 +15,7 @@ export default function GameModal ({ name, description, image, platforms, price,
       justifyContent: 'center',
       alignItems: 'center',
       flexDirection: 'column',
-      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      backgroundColor: 'rgba(0, 0, 0, 0.6)',
       color: 'white'
     }
   }
@@ -38,18 +38,18 @@ export default function GameModal ({ name, description, image, platforms, price,
               <Text>{price ? `$ ${price}` : 'Not available'}</Text>
             </Group>
             <Group mt='xs'>
-              <Button onClick={() => { window.location.href = trailer }} radius='md' style={{ flex: 1 }}>
+              <Button onClick={() => { window.location = trailer }} radius='md' style={{ flex: 1 }}>
                 See trailer
               </Button>
             </Group>
-            <Text mt='md' c='dimmed'>
+            <Text mt='md'>
               Buy
             </Text>
             <Group spacing={7} mt={5}>
               {price
-                ? platforms.map((badge, index) => (
-                  <Button onClick={() => { }} key={index}>
-                    {badge}
+                ? platforms.map((plat, index) => (
+                  <Button onClick={() => { window.location = plat.store }} key={index}>
+                    {plat.name}
                   </Button>
                 ))
                 : (

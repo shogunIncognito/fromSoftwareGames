@@ -34,12 +34,12 @@ const useStyles = createStyles((theme) => ({
 export default function GameCard (game) {
   const { classes, theme } = useStyles()
 
-  const features = game.platforms.map((badge, index) => (
+  const features = game.platforms.map((plat, index) => (
     <Badge
       color={theme.colorScheme === 'dark' ? 'dark' : 'gray'}
       key={index}
     >
-      {badge}
+      {plat.name}
     </Badge>
   ))
 
