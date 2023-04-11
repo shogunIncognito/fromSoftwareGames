@@ -1,13 +1,30 @@
 import { useDisclosure } from '@mantine/hooks'
 import { Modal, Group, Button, Box, Text } from '@mantine/core'
 
-export default function GameModal ({ name, description, image, platforms, price, year }) {
+export default function GameModal ({ name, description, image, platforms, price, year, trailer }) {
   const [opened, { open, close }] = useDisclosure(false)
+
+  const styles = {
+    container: {
+      backgroundImage: `url(${image})`,
+      backgroundSize: '100%',
+      backgroundRepeat: 'no-repeat'
+    },
+    content: {
+      display: 'flex',
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      backgroundColor: 'rgba(0, 0, 0, 0.5)',
+      color: 'white'
+    }
+  }
+
   return (
     <>
-      <Modal opened={opened} onClose={close} title={name} centered>
-        <Box sx={{ backgroundImage: `url(${image})`, backgroundPosition: 'center', backgroundSize: '500px' }}>
-          <Box p='md'>
+      <Modal style={{ margin: '0' }} opened={opened} onClose={close} title={name} centered size='xl'>
+        <Box sx={styles.container}>
+          <Box p='md' sx={styles.content}>
             <Group mt='md'>
               <Text fw={500}>About the game</Text>
               <Text>{description}</Text>
@@ -18,9 +35,27 @@ export default function GameModal ({ name, description, image, platforms, price,
             </Group>
             <Group mt='md'>
               <Text fw={500}>Price:</Text>
-              <Text>$ {price}</Text>
+              <Text>{price ? `$ ${price}` : 'Not available'}</Text>
             </Group>
-            <Text mt={10}>Trailer</Text>
+            <Group mt='xs'>
+              <Button onClick={() => { window.location.href = trailer }} radius='md' style={{ flex: 1 }}>
+                See trailer
+              </Button>
+            </Group>
+            <Text mt='md' c='dimmed'>
+              Buy
+            </Text>
+            <Group spacing={7} mt={5}>
+              {price
+                ? platforms.map((badge, index) => (
+                  <Button onClick={() => { }} key={index}>
+                    {badge}
+                  </Button>
+                ))
+                : (
+                  <Button color='indigo'>Not available</Button>
+                  )}
+            </Group>
           </Box>
         </Box>
       </Modal>

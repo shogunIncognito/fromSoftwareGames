@@ -2,82 +2,91 @@
   {
     "id": 1,
     "name": "Dark Souls Prepare to Die Edition",
-    "price": 20,
+    "price": null,
     "image": "https://i.ytimg.com/vi/4qWA3LWK4ic/maxresdefault.jpg",
     "description": "Dark Souls 1 takes place in the kingdom of Lordran, where the player character is an undead warrior on a quest to rekindle the First Flame and prevent the end of the world. Along the way, they encounter a variety of memorable characters and engage in intense battles with powerful bosses.",
     "platforms": ["PS3", "Xbox 360", "PC"],
-    "year": "22 September 2011"
+    "year": "22 September 2011",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 2,
     "name": "Dark Souls II Scholar of the First Sin",
-    "price": 20,
+    "price": 29.99,
     "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2015/04/463326-analisis-dark-souls-2-scholar-first.jpg?itok=0NtCBBZd",
     "description": "Dark Souls 2: Scholar of the First Sin is an updated version of Dark Souls 2, released in 2015. It includes all previously released DLC, updated graphics and sound, and some changes to the game's enemy and item placement.",
     "platforms": ["PS4", "Xbox One", "PC"],
-    "year": "7 April 2015"
+    "year": "7 April 2015",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 3,
     "name": "Dark Souls III",
-    "price": 20,
+    "price": 59.99,
     "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2016/03/576928-dark-souls-3-logros-trofeos.jpg?itok=s-vXCcYg",
     "description": "Dark Souls 3 returns to the setting of the first game, taking place in a world on the brink of collapse. The player character, known as the Ashen One, must defeat powerful lords and link the fire to stave off the end of the world.",
     "platforms": ["PS4", "Xbox One", "PC"],
-    "year": "24 March 2016"
+    "year": "24 March 2016",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 9,
     "name": "Demon Souls",
-    "price": 20,
+    "price": 49.99,
     "image": "https://i.blogs.es/51c0d3/demons-souls-ps5/1366_2000.jpeg",
     "description": "Demon's Souls A 2009 action role-playing game developed by FromSoftware. It is known for its challenging gameplay and atmospheric world design, and was a major influence on the 'Soulsborne' genre.",
     "platforms": ["PS3"],
-    "year": "5 February 2009"
+    "year": "5 February 2009",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 4,
     "name": "Bloodborne",
-    "price": 20,
+    "price": 19.99,
     "image": "https://i0.wp.com/gamerfocus.co/wp-content/uploads/2015/03/Bloodborne.png?ssl=1",
     "description": "Bloodborne A 2015 action role-playing game also developed by FromSoftware. It takes place in the gothic, Lovecraftian city of Yharnam, and features fast-paced combat and a unique 'trick weapon' system.",
     "platforms": ["PS4"],
-    "year": "24 March 2015"
+    "year": "24 March 2015",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 5,
     "name": "Dark Souls Remastered",
-    "price": 20,
+    "price": 39.99,
     "image": "https://i.blogs.es/591b5a/280518-darksouls-review/1366_2000.jpg",
     "description": "Dark Souls Remastered is a remastered version of the original Dark Souls game, released in 2011. It features updated graphics, improved online multiplayer functionality, and some gameplay tweaks.",
     "platforms": ["PS4", "Xbox One", "Switch", "PC"],
-    "year": "25 May 2018"
+    "year": "25 May 2018",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 6,
     "name": "Dark Souls II",
-    "price": 20,
+    "price": null,
     "image": "https://www.gamerfocus.co/wp-content/uploads/2014/01/dark-souls-II-destino-maldito-1.jpg",
     "description": "Dark Souls 2 is set in the kingdom of Drangleic, where the player character is a cursed undead seeking a cure for their affliction. The game features an expanded multiplayer system and a greater emphasis on exploration.",
     "platforms": ["PS3", "Xbox 360", "PC"],
-    "year": "11 March 2014"
+    "year": "11 March 2014",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 7,
     "name": "Sekiro Shadows Die Twice",
-    "price": 20,
+    "price": 59.99,
     "image": "https://as01.epimg.net/meristation/imagenes/2019/02/12/avances/1549991406_429548_1550039476_noticia_normal.jpg",
     "description": "Sekiro: Shadows Die Twice: A 2019 action-adventure game developed by FromSoftware. It is set in a fictionalized version of Sengoku-era Japan, and features a new combat system focused on posture and parrying.",
     "platforms": ["PS4", "Xbox One", "PC"],
-    "year": "22 March 2019"
+    "year": "22 March 2019",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   },
   {
     "id": 8,
     "name": "Elden Ring",
-    "price": 20,
+    "price": 59.99,
     "image": "https://static.bandainamcoent.eu/high/elden-ring/elden-ring/00-page-setup/elden-ring-new-header-mobile.jpg",
     "description": "Elden Ring is presented through a third-person perspective, with players freely roaming its interactive open world. The six main areas are traversed using the player character's steed Torrent as the primary mode of transportation, while linear hidden dungeons can be explored to find useful items. Combat is facilitated by several types of weapons and magic spells, including non-direct engagement enabled by stealth mechanics. Checkpoints located throughout the world allow for the player to improve their attributes using an in-game currency called Runes, as well as acting as locations that enable fast travel. Elden Ring features online multiplayer, with players able to join each other for both cooperative and player versus player combat.",
-    "platforms": ["PS4", "Xbox One", "PC"]  ,
-    "year": "25 February 2022" 
+    "platforms": ["PS4", "Xbox One", "PC"],
+    "year": "25 February 2022",
+    "trailer": "https://www.youtube.com/watch?v=G203e1HhixY"
   }   
 ]
